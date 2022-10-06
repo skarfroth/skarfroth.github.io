@@ -7,13 +7,22 @@
 
 body {
   background-color: #1a1a1b;
-  padding-left: 10px;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.games-header {
+  margin-left: 400px;
 }
 
 .game-grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
 .grid-item {
@@ -23,7 +32,26 @@ body {
   text-align: center;
 }
 
+.about-container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.about-header {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-text {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
 .responsive-img {
   max-width: 100%;
   height: auto;
+}
+
+.pet-description {
+  margin-bottom: 14px;
 }
