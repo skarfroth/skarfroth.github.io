@@ -14,11 +14,11 @@ body {
   margin-bottom: 40px;
 }
 
-.games-header {
+.grid-header {
   margin-left: 400px;
 }
 
-.game-grid-container {
+.grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
